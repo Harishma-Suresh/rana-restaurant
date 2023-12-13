@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	height: 5505px;
+	width: 1366px;
+	margin: 0 auto;
+}
+.banner{
+	height: 855px;
+	width: 1366px;
+	background-image: url(img/banner.png) ;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top: 50px;	
+}
+.nav{
+	height:100px;
+	width:1206px;
+	background-color: black;
+	border-radius:100px;
+	padding-left: 50px;
+	margin: 0 auto;	
+	text-align: center;
+	position: sticky;
+}
+.nav ul li{
+	list-style: none;
+	color:#FFA34E;
+	padding-right:75px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 26px;
+	display: inline-block;
+	padding: 30px 43px;
+	
+}
+
+ .list1,.list2,.logo{
+	float: left;	
+} 
+ .logo{
+	height:80px;
+	width:80px;
+	margin-right:10px ;
+} 
+.buttler{
+	float: left;
+	
+}
+.buttler-img{
+	height:500px;
+	width:500px;
+	margin-top: 100px;
+	
+}
+.content{
+	height:300px ;
+	width:600px;
+	float:left;
+	margin-top: 250px;
+}
+.content h1{
+	font-size: 56px;
+}
+.content p{
+	padding-left: 90px;
+	font-size: 26px;
+	line-height:50px;
+}
+.content button{
+	height:70px;
+	width: 250px;
+	margin-left:80px;
+	margin-top: 60px;
+	background-color: #f39819;
+	border: none;
+	border-radius: 50px;
+	font-weight: bold;
+	font-size: 26px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+.about{
+	height: 550px;
+	width: 1366px;
+	background-color: #FFFFFF;
+}
+.about h1{
+	text-align: center;	
+}
+.pepper-img{
+	position: absolute;
+	bottom: 422px;
+	left:165px ;
+	z-index: 1;
+}
+.organic{
+	height: 500px;
+	width: 1366px;
+	padding:  0px 100px;
+	position:relative;
+}
+.masala{
+	height: 400px;
+	width: 250px;
+	background-color: #F1DBAA;
+	
+}
+.masala img{
+	margin-left: 20px;
+}
+.chilli-img{
+	position: absolute;
+	right:249px;
+	bottom:279px;
+	rotate: 45deg;
+	z-index:-1;
+}
+.veg{
+	height: 400px;
+	width: 250px;
+	background-color: #F1DBAA;
+	
+}
+.veg-img{
+	margin-top: 20px;
+}
+
+.quality{
+	height: 400px;
+	width: 250px;
+	background-color: #F1DBAA;
+	
+}
+.quality-img{
+	margin-top: 20px;
+}
+
+.masala,.veg,.quality{
+	float: left;
+	margin-top: 30px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	margin-left: 75px;
+	padding: 20px;
+}
+.hotel{
+	height: 910px;
+	width: 1366px;	
+	position: relative;
+}
+
+.house{
+	height:910px;
+	width:683px;
+	background-color: white;
+	opacity: 80%;
+	position: absolute;
+	top: 0;
+    left: 683px;
+    color: rgb(10, 2, 2); 
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.house h1{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 46px;
+}
+.house p{
+text-align:justify;
+padding: 40px 65px;
+line-height: 45px;
+font-size:30px;
+font-style: italic;
+font-family:'Times New Roman', Times, serif
+
+}
+.house button{
+	height:50px;
+	width:200px;
+	color:black;
+	font-size: 26px;
+	font-weight: bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #f39819;
+	border-radius: 25px;
+	border:none;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+/* .banner-img{
+	height: 910px;
+	width: 1366px;	
+} */
+.special{
+	height:1400px;
+	width:1366px;
+	background-color: antiquewhite;
+	padding-top: 25px;
+}
+.special h1{
+	font-size: 45px;
+}
+.special h1,h3{
+	text-align: center;
+	padding-bottom:25px;
+}
+.special h3{
+	font-size: 26px;
+	padding-top:20px;
+}
+.dishes{
+	height:650px;
+	width:1366px;
+	background-image:linear-gradient(antiquewhite,white);
+	position:relative;
+}
+.plate-img{
+	position:absolute;
+	left:560px;
+	bottom: 539px;
+}
+
+.dessert{
+	height:650px;
+	width:1366px;
+	position: relative;
+	background-image:linear-gradient(white,antiquewhite);
+}
+.plate1-img{
+	position:absolute;
+	left:560px;
+	bottom: 539px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+	width: 300px;
+	height: 300px;
+}
+
+.box1, .box2, .box3,.box4{
+	float: left;
+	margin-left: 29px;
+	margin-top: 100px;
+	
+}
+.box2, .box4{
+	margin-top: 200px;
+}
+.box5, .box6, .box7,.box8{
+	float: left;
+	margin-left: 29px;
+	margin-top: 100px;
+	
+	
+}
+.box6, .box8{
+	margin-top: 200px;
+}
+.review{
+	height:700px;
+	width:1366px;
+	background-image: url(/img/fast_food.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*opacity:20%;
+	 */
+
+}
+
+.emptysquare{
+	width: 400px;
+	height: 200px;
+	background: url(/img/filipino-recipe.png);
+	margin-left: 50px;
+	position: relative;
+}
+.footer{
+	height:500px;
+	width:1366px;
+	background-color: black;
+	color: white;
+}
+.logo1{
+	height:400px;
+	width:400px;
+	float:left;
+}
+.address, .time, .booking{
+	float:left;
+	font-size: 24px;
+}
+.address{
+	height: 200px;
+	width: 300px;
+	padding-top: 50px;
+	margin-top: 60px;
+}
+.time{
+	height: 200px;
+	width: 300px;
+	padding-top: 50px;
+	margin-top: 60px;
+}
+.booking{
+	height: 200px;
+	width: 300px;
+	padding-top: 50px;
+	margin-top: 60px;
+}
+.Fnav{
+	height: 80px;
+	width:966px;
+	float: right;
+	font-size: 20px;
+}
+.Fnav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+.hrcontainer{
+	clear: both;
+}
+
+hr{
+	border: 1px solid white;
+}
+.footer1{
+	height:50px;
+	width:1366px;
+	margin-top: 25px;
+}
+.footer1 p{
+	float: left;
+	margin-left: 100px;
+}
+.footer1 ul li{
+	list-style: none;
+	float:left;
+	display: inline-block;
+	margin-right: 50px;
+	
+}
+.footer1 ul{
+	margin-left: 1000px;
+	
+}
